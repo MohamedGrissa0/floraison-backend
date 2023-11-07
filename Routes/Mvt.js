@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const Mvt = require("../models/Mvt");
+const Mvt = require("../Models/Mvt");
 const { PfinidModel, NlotdModel } = require("../Models/Depot.js");
 const { PfiniModel, NlotModel } = require("../Models/Pfini.js");
 
